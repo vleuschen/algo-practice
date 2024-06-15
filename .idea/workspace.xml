@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="936db1f4-585f-40ed-96d0-0310c015bf16" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akm/algo/mayi/AddStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akm/algo/mayi/HasCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akm/algo/mayi/ReverseListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akm/algo/mayi/StockMaxProfit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akm/algo/model/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akm/algo/util/ListNodeUtil.java" afterDir="false" />
+    <list default="true" id="9a60e47d-84eb-48a7-aaa2-d60e948e95f1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akm/algo/dp/GameBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akm/algo/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,50 +24,68 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 1
-}</component>
-  <component name="ProjectId" id="2eSGfFGRFGw70hqOmXVMIuBg7g6" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2hu9F9Cnd4NOhebDA3vCq8Nvqh6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
-    <option name="showScratchesAndConsoles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.HasCycle.executor": "Run",
-    "Application.HasListCycle.executor": "Run",
-    "Application.ReverseListNode.executor": "Run",
+    "Application.GameBag.executor": "Run",
+    "Application.QuickSort.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/code/algo-pracetice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
+    "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReverseListNode">
-    <configuration name="HasCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akm.algo.mayi.HasCycle" />
-      <module name="algo-pracetice" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="GameBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akm.algo.dp.GameBag" />
+      <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akm.algo.mayi.*" />
+          <option name="PATTERN" value="com.akm.algo.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,25 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HasListCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akm.algo.mayi.HasListCycle" />
-      <module name="algo-pracetice" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akm.algo.sort.QuickSort" />
+      <module name="algo-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akm.algo.mayi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akm.algo.mayi.ReverseListNode" />
-      <module name="algo-pracetice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.akm.algo.mayi.*" />
+          <option name="PATTERN" value="com.akm.algo.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,29 +108,47 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseListNode" />
-        <item itemvalue="Application.HasCycle" />
-        <item itemvalue="Application.HasListCycle" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.GameBag" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="936db1f4-585f-40ed-96d0-0310c015bf16" name="Changes" comment="" />
-      <created>1711890666725</created>
+      <changelist id="9a60e47d-84eb-48a7-aaa2-d60e948e95f1" name="Changes" comment="" />
+      <created>1718432989242</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1711890666725</updated>
-      <workItem from="1711890667731" duration="1540000" />
-      <workItem from="1711974915861" duration="224000" />
-      <workItem from="1711975151369" duration="12000" />
-      <workItem from="1711975169004" duration="23000" />
-      <workItem from="1712576773410" duration="794000" />
+      <updated>1718432989242</updated>
+      <workItem from="1718432990497" duration="5698000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/akm/algo/dp/GameBag.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/akm/algo/sort/QuickSort.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
